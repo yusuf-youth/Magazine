@@ -5,7 +5,7 @@
 
 This website is an online design magazine called "Henrik Magazine." It features articles on art, painting, design, and interviews, along with sections like "Latest Posts," "Popular Posts," and "Hot Stuff." <a href="https://yusuf-youth.github.io/Magazine/">Website</a>, <a href="https://www.figma.com/design/r98QZ1FvO1LgaX6b5y9mkZ/Dentist?node-id=0-1&p=f&t=jTc3fjOw8ExpTB3h-0">Template</a>. <br />
 
-<h3>Structure</h3>
+<h2>Structure</h2>
 The project is structured with following folders: 
 <ul>
   <li>
@@ -22,7 +22,7 @@ The project is structured with following folders:
   </li>
 </ul>
 
-<h3>Features</h3>
+<h2>Features</h2>
 The project has several features: 
 <ul>
   <li>
