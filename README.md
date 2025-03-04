@@ -24,7 +24,7 @@ The project has several features:
     <b>Accessibility. </b>The project takes into account accessibility features and screen readers, so it contains useful information for people with low vision.
   </li>
   <li>
-    <b>Components. </b>The project has independent components such as <code>.button</code>, <code>.input</code>, and others for use in different places on the website. 
+    <b>Components. </b>The project has independent components such as <code>.button</code>, <code>.title</code>, <code>.label</code> and others for use in different places on the website. 
   </li>
   </li>
   <li>
