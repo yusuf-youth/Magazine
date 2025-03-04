@@ -1,3 +1,8 @@
+<img src="https://www.ruraltreasures.com/cdn/shop/articles/Banner_870_x_581.jpg?v=1649945817" width="500" />
+<br />
+
+
+
 Hi there! This is a website I built from Figma template for demonstration to potential employers. <a href="https://yusuf-youth.github.io/Magazine/">Website</a>, <a href="https://www.figma.com/design/r98QZ1FvO1LgaX6b5y9mkZ/Dentist?node-id=0-1&p=f&t=jTc3fjOw8ExpTB3h-0">Template</a>. <br />
 
 <h3>Structure</h3>
