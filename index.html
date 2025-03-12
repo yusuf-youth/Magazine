@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header border-bottom">
+      <div class="header-inner container">
+        <a class="header-logo-link" href="/">
+          <img
+            class="header-logo-img"
+            src="images/logo.jpg"
+            alt=""
+            width="25"
+            height="28"
+          />
+          henrik
+        </a>
+
+        <nav class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a class="header-menu-link is-current" href="/">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="/">Pages</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="/">Shop</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="/">Blog</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="/">Video</a>
+            </li>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="/">New</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="header-info-link" href="/">
+            info
+            <img
+              class="header-info-image"
+              src="images/circle.jpg"
+              alt=""
+              width="26"
+              height="26"
+            />
+          </a>
+          <button
+            class="header-burger-button"
+            title="Menu"
+            onclick="mobileOverlay.showModal()"
+          >
+            <span class="visually-hidden">Menu Button</span>
+            <span class="header-burger-button-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="hero container">
+        <h1 class="hero-title visually-hidden">Henrik Magazine</h1>
+        <div class="hero-inner">
+          <div class="hero-body">
+            <div class="hero-body-tags">
+              <time class="label" datetime="2012">Sep 24, 2012</time>
+              <span class="label">/</span>
+              <a href="/" class="label">by Jenny Jensen</a>
+              <a href="/" class="label">/</a>
+              <a href="/" class="label capsule">Art</a>
+              <a href="/" class="label capsule">Painting</a>
+            </div>
+            <h2 class="hero-title title-big border-bottom gray">
+              8 Days of John Bryce home improvement just for you
+            </h2>
+            <p class="hero-text">
+              Tellus integer feugiat scelerisque varius sit amet volutpat
+              consequat mauris nunc congue nisi at ultrices mi tempus imperdiet
+              nulla malesuada pellentesque netus et malesuada
+            </p>
+          </div>
+          <img
+            class="hero-image"
+            src="images/hero-image.jpg"
+            alt="Portrait of color pallete"
+            width="590"
+            height="786"
+          />
+        </div>
+      </section>
+      <section class="gallery container border-bottom">
+        <h2 class="visually-hidden">Latest Posts</h2>
+        <header class="gallery-header">
+          <div class="gallery-posts-wrapper">
+            <div class="gallery-posts">
+              <img src="images/circle.jpg" alt="" width="17" height="17" />
+              <h5 class="title-extra-small">Latest Posts</h5>
+            </div>
+            <a class="gallery-view-link title-extra-small" href="/">View All</a>
+          </div>
+          <div class="space-between">
+            <div class="">
+              <span class="label">Filter By Category:</span>
+              <span class="gallery-filters">
+                <button class="gallery-filter-button label capsule selected">
+                  All
+                </button>
+                <button class="gallery-filter-button label capsule">
+                  Design
+                </button>
+                <button class="gallery-filter-button label capsule">
+                  Altyn
+                </button>
+              </span>
+            </div>
+            <div>
+              <span class="label">First show</span>
+              <button class="gallery-selection-button">
+                <span class="label border-bottom thin">Default</span>
+                <svg
+                  width="16"
+                  height="9"
+                  viewBox="0 0 16 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_5_3639)">
+                    <path
+                      d="M1.08887 1.16492L8.57763 8.6471"
+                      stroke="black"
+                      stroke-width="0.999527"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M8.07812 8.64685L15.5669 1.16467"
+                      stroke="black"
+                      stroke-width="0.999527"
+                      stroke-miterlimit="10"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_5_3639">
+                      <rect
+                        width="15.1875"
+                        height="8.1875"
+                        fill="white"
+                        transform="translate(0.734375 0.8125)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="gallery-body">
+          <div class="gallery-collection">
+            <ul class="gallery-list big">
+              <li class="gallery-item">
+                <article class="gallery-card card big">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/1.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Oct 24, 2012</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Altyn</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-medium border-bottom"
+                  >
+                    Home of the big home kit skill of mix ups in tim
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card big">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/2.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Mar 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Design</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-medium border-bottom"
+                  >
+                    try out our best in the spot tops and tricks in
+                  </a>
+                </article>
+              </li>
+            </ul>
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/3.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Nov 24, 2012</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Design</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    Home of the big home kit skill of mix ups in tim
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/4.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Jan 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Altyn</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    Design that makes our product good
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/5.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Apr 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Design</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    Device that takes your product top
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/6.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Jun 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Design</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    The opus of Tim Roth’s somber life
+                  </a>
+                </article>
+              </li>
+            </ul>
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/7.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Dec 24, 2012</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Altyn</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    The best Blog out there today now
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/8.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">Feb 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Altyn</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    Forever is longer than today is
+                  </a>
+                </article>
+              </li>
+              <li class="gallery-item">
+                <article class="gallery-card card">
+                  <img
+                    class="gallery-card-image card-image"
+                    src="images/gallery/9.jpg"
+                    alt="Book titled Rose"
+                  />
+                  <div class="card-category">
+                    <span class="card-label label">May 24, 2013</span>
+                    <span class="card-label label">/</span>
+                    <a class="card-link label capsule" href="/">Altyn</a>
+                  </div>
+                  <a
+                    href="/"
+                    class="gallery-card-title card-title title-small border-bottom"
+                  >
+                    The pretty book of the lapua top
+                  </a>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="popular container">
+        <h2 class="visually-hidden">Popular Posts</h2>
+        <header class="popular-header">
+          <div class="category-title">
+            <img src="icons/diamond.svg" alt="" />
+            <h4 class="title-extra-small">Popular</h4>
+          </div>
+          <div class="category-title">
+            <img src="icons/star.svg" alt="" />
+            <h4 class="title-extra-small">trending</h4>
+          </div>
+        </header>
+        <div class="popular-body">
+          <ul class="popular-list">
+            <li class="popular-item">
+              <article class="popular-card card">
+                <img
+                  class="card-image"
+                  src="images/popular/1.jpg"
+                  alt="Colorful Cube"
+                />
+                <div class="card-category">
+                  <span class="card-label label">Jul 24, 2013</span>
+                  <span class="card-label label">/</span>
+                  <a class="card-link label capsule" href="/">Vision</a>
+                </div>
+                <a
+                  href="/"
+                  class="popular-card-title card-title title-medium border-bottom"
+                >
+                  A box with a new sheen of cool top
+                </a>
+              </article>
+            </li>
+            <li class="popular-item">
+              <article class="popular-card card">
+                <img
+                  class="card-image"
+                  src="images/popular/2.jpg"
+                  alt="Women in white dress"
+                />
+                <div class="card-category">
+                  <span class="card-label label">Aug 24, 2013</span>
+                  <span class="card-label label">/</span>
+                  <a class="card-link label capsule" href="/">Vision</a>
+                </div>
+                <a
+                  href="/"
+                  class="popular-card-title card-title title-medium border-bottom"
+                >
+                  The greatest book read by our dads
+                </a>
+              </article>
+            </li>
+          </ul>
+          <ul class="popular-list source">
+            <li class="popular-item">
+              <a class="card-link label capsule" href="/">Source</a>
+              <a href="/" class="title-small border-bottom">
+                Old shirts to get used to
+              </a>
+            </li>
+            <li class="popular-item">
+              <a class="card-link label capsule" href="/">Source</a>
+              <a href="/" class="title-small border-bottom">
+                The House is open to you now
+              </a>
+            </li>
+            <li class="popular-item">
+              <a class="card-link label capsule" href="/">Source</a>
+              <a href="/" class="title-small border-bottom">
+                Red dress will be here for you
+              </a>
+            </li>
+            <li class="popular-item">
+              <a class="card-link label capsule" href="/">Source</a>
+              <a href="/" class="title-small border-bottom">
+                For time is here move it now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="interview">
+        <h2 class="visually-hidden">Interview</h2>
+        <div class="interview-body">
+          <div class="interview-category">
+            <span class="label">Sep 24, 2013</span>
+            <span class="label">/</span>
+            <a class="label capsule" href="/">Abacus</a>
+            <a class="label capsule" href="/">Golden</a>
+          </div>
+          <h3 class="interview-title title-big border-bottom">
+            Jenny Slate Interview
+          </h3>
+          <p class="interview-text">
+            Tellus integer feugiat scelerisque varius. Sit amet volutpat
+            consequat mauris nunc congue nisi. At ultrices mi tempus imperdiet
+            nulla malesuada pellentesque. Netus et malesuada fames ac turpis
+            egestas sed.
+          </p>
+        </div>
+      </section>
+      <section class="hot-stuff container border-bottom">
+        <h2 class="visually-hidden">Hot Stuff</h2>
+        <header class="hot-stuff-header">
+          <div class="category-title">
+            <img src="icons/triangle.svg" alt="" />
+            <h4 class="title-extra-small">Hot Stuff</h4>
+          </div>
+          <a class="title-extra-small" href="/">View more</a>
+        </header>
+        <div class="hot-stuff-body">
+          <ul class="hot-stuff-list">
+            <li class="hot-stuff-item">
+              <a href="/" class="hot-stuff-card card">
+                <img
+                  class="card-image"
+                  src="images/hot-stuff/1.jpg"
+                  alt="Man with tattoos"
+                />
+                <div class="hot-stuff-card-category card-category">
+                  <a class="card-link label capsule" href="/">Altyn</a>
+                </div>
+                <a
+                  href="/"
+                  class="hot-stuff-card-title card-title title-extra-small"
+                >
+                  The House is open to you now
+                </a>
+              </a>
+            </li>
+            <li class="hot-stuff-item">
+              <a href="/" class="hot-stuff-card card">
+                <img
+                  class="card-image"
+                  src="images/hot-stuff/2.jpg"
+                  alt="Standing dog"
+                />
+                <div class="hot-stuff-card-category card-category">
+                  <a class="card-link label capsule" href="/">Altyn</a>
+                </div>
+                <a
+                  href="/"
+                  class="hot-stuff-card-title card-title title-extra-small"
+                >
+                  Old shirts to get used to
+                </a>
+              </a>
+            </li>
+            <li class="hot-stuff-item">
+              <a href="/" class="hot-stuff-card card">
+                <img
+                  class="card-image"
+                  src="images/hot-stuff/3.jpg"
+                  alt="Girl holding a journal"
+                />
+                <div class="hot-stuff-card-category card-category">
+                  <a class="card-link label capsule" href="/">Altyn</a>
+                </div>
+                <a
+                  href="/"
+                  class="hot-stuff-card-title card-title title-extra-small"
+                >
+                  Red dress will be here for you
+                </a>
+              </a>
+            </li>
+            <li class="hot-stuff-item">
+              <a href="/" class="hot-stuff-card card">
+                <img
+                  class="card-image"
+                  src="images/hot-stuff/4.jpg"
+                  alt="Two men"
+                />
+                <div class="hot-stuff-card-category card-category">
+                  <a class="card-link label capsule" href="/">Altyn</a>
+                </div>
+                <a
+                  href="/"
+                  class="hot-stuff-card-title card-title title-extra-small"
+                >
+                  New boxes to get back to
+                </a>
+              </a>
+            </li>
+            <li class="hot-stuff-item">
+              <a href="/" class="hot-stuff-card card">
+                <img
+                  class="card-image"
+                  src="images/hot-stuff/5.jpg"
+                  alt="Rose flower"
+                />
+                <div class="hot-stuff-card-category card-category">
+                  <a class="card-link label capsule" href="/">Altyn</a>
+                </div>
+                <a
+                  href="/"
+                  class="hot-stuff-card-title card-title title-extra-small"
+                >
+                  For time is here move it now
+                </a>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="banner container border-bottom">
+        <h2 class="banner-title">HENRIK IS A DESIGN MAGAZINE</h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-body">
+        <ul class="footer-list border-bottom">
+          <li class="footer-item">
+            <a class="nav-link" href="/">About</a>
+          </li>
+          <li class="footer-item">
+            <a class="nav-link" href="/">Contact</a>
+          </li>
+          <li class="footer-item">
+            <a class="nav-link" href="/">Shop</a>
+          </li>
+          <li class="footer-item">
+            <a class="nav-link" href="/">Latest</a>
+          </li>
+          <li class="footer-item">
+            <a class="nav-link" href="/">Trending</a>
+          </li>
+        </ul>
+        <ul class="footer-list social">
+          <li class="footer-item">
+            <a href="/">
+              <svg
+                fill="#000000"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="15px"
+                height="15px"
+                viewBox="0 0 512 512"
+                xml:space="preserve"
+              >
+                <g id="7935ec95c421cee6d86eb22ecd11b7e3">
+                  <path
+                    style="display: inline"
+                    d="M283.122,122.174c0,5.24,0,22.319,0,46.583h83.424l-9.045,74.367h-74.379
+		c0,114.688,0,268.375,0,268.375h-98.726c0,0,0-151.653,0-268.375h-51.443v-74.367h51.443c0-29.492,0-50.463,0-56.302
+		c0-27.82-2.096-41.02,9.725-62.578C205.948,28.32,239.308-0.174,297.007,0.512c57.713,0.711,82.04,6.263,82.04,6.263
+		l-12.501,79.257c0,0-36.853-9.731-54.942-6.263C293.539,83.238,283.122,94.366,283.122,122.174z"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="/">
+              <svg
+                width="15px"
+                height="15px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  fill="#0F0F0F"
+                />
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="#0F0F0F"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                  fill="#0F0F0F"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="/">
+              <svg
+                width="15px"
+                height="15px"
+                viewBox="0 -2 20 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-60.000000, -7521.000000)"
+                    fill="#000000"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                        id="twitter-[#154]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="/">
+              <svg
+                width="15px"
+                height="15px"
+                viewBox="0 0 20 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-180.000000, -7479.000000)"
+                    fill="#000000"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z"
+                        id="linkedin-[#161]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-extra">
+        <p class="footer-copyright label">
+          <span class="footer-secondary-text">© Copyright</span>
+          <a class="footer-copyright-link" href="/">Qodeinteractive</a>
+        </p>
+      </div>
+    </footer>
+    <dialog class="mobile-overlay" id="mobileOverlay">
+      <form class="mobile-overlay-form" method="dialog">
+        <button class="mobile-overlay-close-button">
+          <span class="visually-hidden">Close Menu</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-x-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+            />
+          </svg>
+        </button>
+      </form>
+      <div class="mobile-overlay-body">
+        <ul class="mobile-overlay-list">
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">HOME</a>
+          </li>
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">PAGES</a>
+          </li>
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">SHOP</a>
+          </li>
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">BLOG</a>
+          </li>
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">VIDEO</a>
+          </li>
+          <li class="mobile-overlay-item">
+            <a class="mobile-overlay-link" href="/">NEW</a>
+          </li>
+        </ul>
+      </div>
+    </dialog>
+  </body>
+</html>
